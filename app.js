@@ -24,7 +24,7 @@ fruit = prompt('Is my favorite fruit apples?');
 if(fruit.trim().toLowerCase() == 'yes'){
   alert('Actually, im not really a huge fan');
 } else {
-  alert('Youre right, im more of a citrus lover');
+  alert('You\'re right, im more of a citrus lover');
 }
 
 console.log('The answer given for the fruit question was', fruit);
