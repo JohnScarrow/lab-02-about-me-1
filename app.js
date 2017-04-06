@@ -20,7 +20,9 @@ fruit = prompt('Is my favorite fruit apples?');
 if (fruit.trim().toLowerCase() == 'yes') {
     alert('Actually, I\'m not really a huge fan of apples');
 } else {
-    alert('You\'re right, I\'m prefer oranges.');
+
+  alert('You\'re right, I\'m more of a citrus lover');
+
 }
 console.log('The answer given for the fruit question was', fruit);
 paint = prompt('Do I like to paint?');
