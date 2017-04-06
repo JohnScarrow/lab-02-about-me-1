@@ -10,7 +10,7 @@
 h1{
   text-align: center;
   font-family: "Helvetica Neue";
-  font-size: 44px;
+  font-size: 40px;
   letter-spacing: 4px
 }
 
@@ -18,7 +18,17 @@ h2{
   text-align: center;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
+  font-size: 22px;
+}
+h3{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 27px;
+}
+li {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 14px
 }
 
 span{
@@ -30,9 +40,25 @@ body {
 
 img {
   margin:auto;
-  max-width: 200px;
+  max-width: 100px;
   display: inline-block;
 }
 .imagebox {
   text-align: center;
+}
+.biolist {
+  margin: 0px 50px 0px 220px;
+  display: inline-block;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  vertical-align: top;
+}
+.albumlist {
+  margin: 0px 100px 0px 50px;
+  display: inline-block;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  vertical-align: top;
 }
