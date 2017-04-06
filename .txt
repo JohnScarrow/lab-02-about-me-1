@@ -1,0 +1,21 @@
+commit 4945d24721a8b4235fc17f79afa91bb631daef57
+tree 6ea5ec93b728220aa44e860a7ff9c4a8a59ba891
+parent fca2d16e21a66c831cada15a961cee767ab80ebe
+author Joshua Evans <skyfriends1@gmail.com> 1491434664 -0700
+committer Joshua Evans <skyfriends1@gmail.com> 1491434664 -0700
+
+    added 6th question, fixed some style issues
+
+diff --git a/app.js b/app.js
+index ee794d5..3d7f468 100644
+--- a/app.js
++++ b/app.js
+@@ -24,7 +24,7 @@ fruit = prompt('Is my favorite fruit apples?');
+ if(fruit.trim().toLowerCase() == 'yes'){
+   alert('Actually, im not really a huge fan');
+ } else {
+-  alert('Youre right, im more of a citrus lover');
++  alert('You\'re right, im more of a citrus lover');
+ }
+ 
+ console.log('The answer given for the fruit question was', fruit);
